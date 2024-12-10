@@ -1,35 +1,34 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+/* Redéfinir les styles globaux pour les titres */
+h1, h2 {
+  font-family: var(--brp-font);
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+h3, h4, h5, h6 {
+  font-family: var(--antarctica-semibold);
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+body {
+  font-family: var(--antarctica-light);
+  background-color: var(--whitesmoke);
+  color: var(--woodsmoke);
+  font-size: 1rem;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+h1 {
+font-size: 5.375rem;
+} 
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+h2 {
+font-size: 3rem;
 }
+
+h3 {
+font-size: 2rem;
+}
+
+h4 {
+font-size: 1.5rem;
+}
+
